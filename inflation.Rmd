@@ -11,6 +11,7 @@ repro:
   - tidyverse
   - lubridate
   - aaronpeikert/repro@fc7e884
+  - terra
   scripts: R/prepare_inflation.R
   data: data/raw/inflation.rds
 ---
@@ -57,6 +58,3 @@ inflation %>%
   NULL
 ```
 
-```{python}
-print("Hello World! Python here, do you miss R already?")
-```
